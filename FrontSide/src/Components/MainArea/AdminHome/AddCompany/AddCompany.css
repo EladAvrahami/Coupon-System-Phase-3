@@ -1,0 +1,14 @@
+.addLecturer {
+    direction: ltr;
+    text-align: center;
+}
+
+button{
+    width: 100%;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+input{
+    font-size: 30px;
+}

@@ -1,0 +1,16 @@
+.Logo {
+    width: 50%;
+    height: 50%;
+    text-align: center;  
+  }
+  
+  .Logo > img {
+  display: block;
+  width: 50%;
+    height: 50%;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-25%,-10%);
+  display: flex;
+  }

@@ -1,0 +1,60 @@
+.Layout {
+    /* display: flex; */
+    flex-direction: column;
+    align-items: center;
+    min-height: 600px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: whitesmoke;
+    /* border: rebeccapurple 5px dashed; */
+    /*box-sizing: border-box; !* fix css size bug/feature*!*/
+   /* display: grid;
+    grid-template-rows: 15% 80% 5%;
+    grid-template-columns: repeat(6,1fr); /* fr - fraction*/
+}
+
+/*.Layout > header{*/
+/*   */
+/*   height: 10%;*/
+/*    min-height: 100px;!*מיני הייט כדי שאם אהפוך את האתר לריספונסיבי הוא יימתח ביחד עם הדיבים שבתוכו*!*/
+/*    background-color: aqua;*/
+/*    */
+/*}*/
+
+.Layout > .Header{
+    height: 10% ;
+    width: 100%;
+}
+
+.Layout >aside{
+    height: 7% ;
+    width: 100%;
+    background-color: silver;
+}
+
+.Layout > main{
+   /* min-height: 700px;
+    width: 100%;
+    background-color:whitesmoke; */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("../../../Assets/shopingCartBackground.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 50px 0 50px 0;
+  min-height: 750px;/***********************************************************************/
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Layout > footer{
+    border-top: 1px solid #ccc;
+    width: 100%;
+    padding: 50px 0 50px 0;
+}
+
+/*.Layout , .Layout > * {
+    border: 1px solid black;
+}*/

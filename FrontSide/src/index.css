@@ -1,0 +1,136 @@
+html,body,#root{
+  margin :0 auto;
+  padding-top: -5%;
+  height: 100%;
+  width: 100% ;
+  text-align: center;
+  font-size: small;
+  font-style: italic;
+  color: black;
+  /* background-image:linear-gradient(45deg, lightblue, white) ;  */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  direction: ltr;
+  display: flex;
+  box-sizing: border-box;
+  /*כדי לכלול את הפדינג והבורדר בתוך הגדלים של הדיבים שבאבחר בהמשך*/
+  outline: none;
+  /* מבטל לכל הדפדפנים את הבורדר האוטומטי כמו למשל בכפתור האינפוט בחיפוש*/
+  
+}
+/**/
+.Box{
+  display: inline-block;
+  text-align: left;
+  border: 1px solid black;
+  background-color: #f8f9fa;
+  padding: 0 10px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px;
+}
+
+/*header{*/
+/*  min-height: 100px;!*מיני הייט כדי שאם אהפוך את האתר לריספונסיבי הוא יימתח ביחד עם הדיבים שבתוכו*!*/
+/*  background-color: white;*/
+
+/*}*/
+/*header .Header {*/
+
+/*  width: 100%;}/כדי שכשהדיב לוגו יתחיל לקטון התמונה תהייה קטנה בהתאם/*/
+  
+
+
+.container{
+  border: green 5px solid;
+  max-width: 100%;
+  margin: 0 auto;
+  /*border: solid 2px black;תוסיף כדי לראות בבירור יותר מה עושה הפעולה בההערה למטה*/
+  
+}
+
+.paperStyle { 
+  padding: 30px 20px;
+  width: 30%;
+  margin: 5% auto;
+}
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+:root {
+  --blue: #1e90ff;
+  --white: #ffffff;
+  --mute: #767676;
+  --cover: #f8f9fa;
+}
+
+/* Home page */
+.home-main {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("./Assets/shopingCartBackground.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 10% 0 10% 0;
+  min-height: 750px;/***********************************************************************/
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-form-control {
+  width: 350px;
+}
+
+/* Sign in page */
+.sign-in-main {
+  background-color: var(--cover);
+  margin-top: 49px;
+  padding: 50px 0 50px 0;
+}
+.sign-in-container {
+  padding: 15px;
+  width: 500px;
+  background-color: var(--white);
+}
+.sign-in-header {
+  text-align: center;
+}
+.sign-in-intro {
+  font-size: 14px;
+}
+
+.footer {
+  border-top: 1px solid #ccc;
+  width: 100%;
+  
+}
+.footer-container {
+  padding: 30px 0 30px 0;
+}
+.footer-item {
+  padding: 10px;
+}
+.footer-header {
+  font-size: 14px;
+  font-weight: 550;
+}
+.footer-ul {
+  list-style: none;
+}
+.footer-li {
+  font-size: 14px;
+  color: var(--mute);
+}
+.footer-store {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+

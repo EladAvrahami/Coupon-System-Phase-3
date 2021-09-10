@@ -1,0 +1,6 @@
+.HomePage{
+    
+    min-height: inherit;/*כדי שהגובה של הקונטיינר הפנימי יהיה מותאם לגובהו של כל דיב שכלוא בתוכו*/
+    margin-top: 5%;
+    direction:ltr;
+}

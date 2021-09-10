@@ -1,0 +1,69 @@
+
+
+.Menu > nav {
+   /*float: right;*/
+    display: flex;
+    align-items: center;
+    /*min-height: 100px;/*נוסיף לנב גובה */
+    border: 3px solid salmon;
+    text-decoration: none;/*יבטל לי את הקו התחתון מתחת לכל מילה ברשימה */
+    padding-right: 40px;
+
+}
+
+Header.Menu>nav {
+    margin-top: 20px;
+    font-size: small;
+    height: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #332323;
+    padding-right: 40px;
+}
+/* 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #b7b7b7;
+  }
+  
+  body {
+    background-color: black;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+    background-color: #332323;
+  }
+  
+  .logo {
+    cursor: pointer;
+    color: white;
+    font-size: large;
+  }
+   /** Give the nav a width */
+  /* .nav1{
+      width:20%; */
+  /* } */
+  /** Set the flex properties */
+  /* .nav_links{
+    display: flex;
+    justify-content: space-between;
+  }
+  .nav_links a {
+    display: inline-block;
+    cursor: pointer;
+    text-transform: uppercase;
+    list-style-type: none;
+  }
+  
+  .button {
+    background-color: #302b2b;
+    padding: 5px 10%;
+    color: white;
+  } */

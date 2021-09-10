@@ -1,0 +1,56 @@
+html,body,#root{
+  margin :0 auto;
+  padding-top: 15%;
+  height: 100%;
+  width: 100% ;
+  text-align: center;
+  font-style: italic;
+  color: darkcyan;
+  /*background-image:linear-gradient(45deg, lightblue, white) ;  */
+  background-color:silver;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  direction: ltr;
+  display: flex;
+  box-sizing: border-box;
+  /*כדי לכלול את הפדינג והבורדר בתוך הגדלים של הדיבים שבאבחר בהמשך*/
+  outline: none;
+  /* מבטל לכל הדפדפנים את הבורדר האוטומטי כמו למשל בכפתור האינפוט בחיפוש*/
+}
+
+.Box{
+  display: inline-block;
+  text-align: left;
+  border: 1px solid black;
+  padding: 0 10px;
+  margin: 0px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px;
+}
+
+header{
+  min-height: 100px;/*מיני הייט כדי שאם אהפוך את האתר לריספונסיבי הוא יימתח ביחד עם הדיבים שבתוכו*/
+  background-color: white;
+ 
+
+}
+header .Header {
+  
+  width: 100%;/*כדי שכשהדיב לוגו יתחיל לקטון התמונה תהייה קטנה בהתאם*/
+  
+}
+
+.container{
+  border: green 5px solid;
+  max-width: 100%;
+  margin: 0 auto;
+ 
+  /*border: solid 2px black;*/ /*תוסיף כדי לראות בבירור יותר מה עושה הפעולה בההערה למטה*/
+  
+}
+
+.paperStyle { 
+  padding: '30px 20px';
+  width: '30%';
+  margin: '5% auto' ;
+  
+}
